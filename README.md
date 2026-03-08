@@ -5,6 +5,7 @@
 [![Swift Package Manager](https://img.shields.io/badge/SPM-compatible-brightgreen?logo=swift)](https://swift.org/package-manager)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%2016%20%7C%20macOS%2013%20%7C%20tvOS%2016%20%7C%20watchOS%209%20%7C%20visionOS%201-blue)](https://developer.apple.com)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![Documentation](https://img.shields.io/badge/DocC-Documentation-blue?logo=swift)](https://jihongboo.github.io/EPGKit/documentation/epgkit/)
 
 A Swift 6 package for parsing XMLTV-format EPG data into fully-typed Swift models, with complete spec coverage, O(1) channel/programme lookups, and a comprehensive test suite.
 
