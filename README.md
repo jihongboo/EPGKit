@@ -103,6 +103,10 @@ struct MyParser: EPGParser {
 let epg = try kit.parse(data: data, format: .custom(MyParser()))
 ```
 
+## Documentation
+
+Full API documentation is available at **[jihongboo.github.io/EPGKit/documentation/epgkit](https://jihongboo.github.io/EPGKit/documentation/epgkit/)**, hosted via GitHub Pages and built automatically with DocC on every push to `main`.
+
 ## License
 
 MIT
