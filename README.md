@@ -1,10 +1,16 @@
 # EPGKit
 
+[![CI](https://github.com/jihongboo/EPGKit/actions/workflows/ci.yml/badge.svg)](https://github.com/jihongboo/EPGKit/actions/workflows/ci.yml)
+[![Swift](https://img.shields.io/badge/Swift-6.2-F05138?logo=swift&logoColor=white)](https://swift.org)
+[![Swift Package Manager](https://img.shields.io/badge/SPM-compatible-brightgreen?logo=swift)](https://swift.org/package-manager)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS%2016%20%7C%20macOS%2013%20%7C%20tvOS%2016%20%7C%20watchOS%209%20%7C%20visionOS%201-blue)](https://developer.apple.com)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+
 A Swift 6 package for parsing XMLTV-format EPG data into fully-typed Swift models, with complete spec coverage, O(1) channel/programme lookups, and a comprehensive test suite.
 
 ## Requirements
 
-- Swift 6.0+
+- Swift 6.2+
 - iOS 16+ / macOS 13+ / tvOS 16+ / watchOS 9+ / visionOS 1+
 
 ## Installation
@@ -13,7 +19,7 @@ Add EPGKit to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-org/EPGKit.git", from: "1.0.0"),
+    .package(url: "https://github.com/jihongboo/EPGKit.git", from: "1.0.0"),
 ],
 targets: [
     .target(name: "YourTarget", dependencies: ["EPGKit"]),
