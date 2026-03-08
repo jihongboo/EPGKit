@@ -20,10 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "EPGKit",
-            swiftSettings: [
-                .enableExperimentalFeature("StrictConcurrency"),
-            ]
+            name: "EPGKit"
         ),
         .testTarget(
             name: "EPGKitTests",
